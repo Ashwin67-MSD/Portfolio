@@ -1,0 +1,16 @@
+h1{color:blue;padding-left:30px}
+            h3{color:crimson}
+           
+            .header{background-color: yellow;display:flex;justify-content: center;padding-top: 100;border:red;border-radius:4;border-style:dashed;}
+            .grid{display:flex;flex-wrap:wrap;justify-content: space-around;margin-left:200; }
+            .footer{display:flex;flex-wrap:wrap;justify-content: space-between;}
+            p,h3{text-align:center;}
+            body{background-color: cyan;}
+            .item{border-color: red;border-radius: 4;border-style: groove;}
+           a:link{color:#678910}
+           a:visited{color:blue} 
+           .menu{margin-right: 100px;}
+           .item{position:relative}
+           .item h3{position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);opacity:0}
+           .item:hover h3{opacity:1}
+           .item:hover img{opacity:0.3}
